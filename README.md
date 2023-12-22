@@ -2,9 +2,17 @@
 
 ## 1. 설치 방법
 ```bash
+# 코드 복제
+$ git clone https://github.com/chupark/skillset-subway.git
+
+# 디렉토리로 이동
+cd skillset-subway
+
 # python venv 환경 활성화
-$ python -m venv .venv
+$ python -m venv .venv # 혹은 python3 -m venv .venv
 $ . .venv/bin/activate
+
+# 패키지 설치
 (.venv)$ pip install -r requirements.txt
 ```
 
